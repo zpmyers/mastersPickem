@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "name": {
+      "value": "masterspickem"
+    },
+    "appServicePlanName": {
+      "value": "Masters-20190906145908"
+    },
+    "sku": {
+      "value": "B1"
+    },
+    "linuxFxVersion": {
+      "value": "node|10.14"
+    },
+    "subscriptionId": {
+      "value": "5be10631-66c3-4c2c-bf10-b60b4b8b3fd1"
+    },
+    "location": {
+      "value": "Central US"
+    }
+  }
+}
